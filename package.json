@@ -1,0 +1,22 @@
+{
+  "name": "skill-seo",
+  "version": "1.0.0",
+  "description": "Audit Agent Skill metadata and GitHub or SkillHub discoverability before publishing.",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "audit": "node scripts/audit.mjs",
+    "test": "node scripts/self-test.mjs"
+  },
+  "keywords": [
+    "agent-skill",
+    "seo",
+    "metadata",
+    "github",
+    "skillhub"
+  ]
+}

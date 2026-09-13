@@ -1,0 +1,10 @@
+interface:
+  display_name: "Skill SEO 检查器"
+  short_description: "检查 Skill 名称简介关键词和发布信息并给出修复建议"
+  icon_small: "./assets/icon-512.png"
+  icon_large: "./assets/icon-512.png"
+  brand_color: "#0F766E"
+  default_prompt: "使用 $skill-seo 审计这个 Skill 的名称、简介、关键词、README 和发布字段，并给出可执行修复清单。"
+
+policy:
+  allow_implicit_invocation: true

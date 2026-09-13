@@ -1,0 +1,25 @@
+name: skill-seo
+display_name: Skill SEO 检查器
+slug: skill-seo
+version: 1.0.0
+category: 开发工具 / Skill 管理
+author: xxjrq
+description: 审计 Agent Skill 的名称、简介、关键词、标签、README 和 GitHub/SkillHub 展示字段，输出按优先级排序的可执行修复报告。
+trigger_words:
+  - Skill SEO
+  - 检查 Skill 描述
+  - 优化 GitHub 仓库描述
+  - SkillHub 简介优化
+  - Skill 关键词
+  - 批量检查技能元数据
+tags:
+  - agent-skills
+  - seo
+  - metadata
+  - github
+  - skillhub
+  - content-discovery
+license: MIT
+repository: https://github.com/xxjrq/skill-seo
+icon: assets/icon-512.png
+self_test: node scripts/self-test.mjs

@@ -40,4 +40,3 @@ node scripts/audit.mjs --skills-root /path/to/selfmedia/skills --output /tmp/ski
 ## 参考资料
 
 - [references/seo-checklist.md](references/seo-checklist.md)：字段规则、关键词模板和验收清单。
-- [docs/multi-platform-publishing-seo.md](../../docs/multi-platform-publishing-seo.md)：自媒体内容的标题、简介和标签规范；不要把内容 SEO 规则误当成 Skill 元数据。
